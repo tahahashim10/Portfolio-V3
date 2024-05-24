@@ -98,6 +98,7 @@ span {
 
 .home-img img {
     width: 25vw;
+    margin: 1rem;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -164,7 +165,8 @@ span {
 }
 
 .about-img img {
-    width: 35vw
+    width: 35vw;
+    margin-bottom: 5rem;
 }
 
 .heading {
@@ -225,6 +227,66 @@ span {
 .skills-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+}
+
+
+.about-container {
+    scale: 110%;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: var(--text-color);
+    border-radius: 2rem;
+    border-color: var(--text-color);
+    text-align: center;
+    background-color: var(--snd-bg-color);
+}
+
+.skills {
+    position: relative;
+}
+
+.skills-sub-title {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.skills-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    scale: 110%;
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article i {
+    cursor: pointer;
+    font-size: 3 rem;
+    scale: 130%;
+    color: var(--main-color);
 }
 
 .portfolio {
@@ -378,59 +440,6 @@ span {
     color: var(--snd-bg-color);
 }
 
-.about-container {
-    gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: flex;
-}
-
-.details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: var(--text-color);
-    border-radius: 2rem;
-    border-color: var(--text-color);
-    text-align: center;
-    background-color: var(--snd-bg-color);
-}
-
-.skills {
-    position: relative;
-}
-
-.skills-sub-title {
-    color: var(--text-color);
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
-}
-
-.skills-details-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.article-container {
-    display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
-}
-
-article {
-    display: flex;
-    width: 10rem;
-    justify-content: space-around;
-    gap: 0.5rem;
-}
-
-article i {
-    cursor: pointer;
-}
 
 
 /* Media Query Stuff */
