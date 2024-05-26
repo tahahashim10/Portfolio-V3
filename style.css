@@ -166,7 +166,9 @@ span {
 
 .about-img img {
     width: 35vw;
+    scale: 70%;
     margin-bottom: 5rem;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .heading {
