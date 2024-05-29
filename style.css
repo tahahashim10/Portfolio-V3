@@ -307,6 +307,10 @@ article div {
     margin-bottom: 4rem;
 }
 
+.portfolio div a {
+    color: var(--text-color);
+}
+
 .portfolio-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -322,15 +326,24 @@ article div {
     display: flex;
 }
 
+.portfolio-box {
+    margin: 2rem;
+}
+
 .portfolio-box img {
     width: 100%;
     transition: .5s ease;
     opacity: 0.7;
 }
 
+#grocerypic {
+    scale: 110%;
+}
+
 .portfolio-box:hover img {
     transform: scale(1.1);
 }
+
 
 .portfolio-box .portfolio-layer {
     position: absolute;
