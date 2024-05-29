@@ -234,10 +234,12 @@ span {
 
 .about-container {
     scale: 110%;
-    gap: 2rem;
+    gap: 10rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: flex;
+    width: 50%;
+    align-self: center;
 }
 
 .details-container {
@@ -248,6 +250,7 @@ span {
     border-color: var(--text-color);
     text-align: center;
     background-color: var(--snd-bg-color);
+    
 }
 
 .skills {
@@ -290,6 +293,11 @@ article i {
     scale: 130%;
     color: var(--main-color);
 }
+
+article div {
+    margin-inline: 5rem;
+}
+
 
 .portfolio {
     background: var(--snd-bg-color);
@@ -477,6 +485,15 @@ article i {
     .footer {
         padding: 2rem 3%;
     }
+
+    .about-container {
+        scale: 110%;
+        gap: 7rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        width: 60%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -547,6 +564,12 @@ article i {
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .about-container {
+        gap: 5rem;
+        width: 70%;
+        display: flex;
+    }
 }
 
 @media (max-width: 617px) {
@@ -563,6 +586,12 @@ article i {
         width: 100vw;
         margin-top: 4rem;
     }
+
+    .about-container {
+        gap: 2.5rem;
+        width: 80%;
+        display: flex;
+    }
 }
 
 @media (max-width: 450px) {
@@ -572,5 +601,11 @@ article i {
 
     .contact form .input-box input {
         width: 100%;
+    }
+
+    .about-container {
+        gap: 2.5rem;
+        width: 100%;
+        display: flex;
     }
 }

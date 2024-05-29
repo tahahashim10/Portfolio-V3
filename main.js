@@ -58,7 +58,7 @@ ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
 // typed js
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Software Engineer', 'Automation Test Engineer', 'Computer Science Student'],
+    strings: ['Software Engineer', 'Computer Science Student', 'Front-End Developer'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
