@@ -54,6 +54,8 @@ ScrollReveal().reveal('.home-content, heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, portfolio-box, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.skills-details-container', {origin: 'top'});
+ScrollReveal().reveal('.portfolio-container', {origin: 'bottom'});
 
 // typed js
 

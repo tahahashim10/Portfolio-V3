@@ -171,6 +171,13 @@ span {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
+.about-internal {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
 .heading {
     text-align: center;
     font-size: 4.5rem;
@@ -338,6 +345,10 @@ article div {
 
 #grocerypic {
     scale: 110%;
+}
+
+#grocerypic  p {
+    scale: 90%;
 }
 
 .portfolio-box:hover img {
