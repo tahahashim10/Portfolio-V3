@@ -351,6 +351,10 @@ article div {
     scale: 90%;
 }
 
+#portfoliohomepic {
+    scale: 115%;
+}
+
 .portfolio-box:hover img {
     transform: scale(1.1);
 }
