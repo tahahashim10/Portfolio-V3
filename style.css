@@ -334,7 +334,7 @@ article div {
 }
 
 .portfolio-box {
-    margin: 2rem;
+    margin: 1.5rem;
 }
 
 .portfolio-box img {
@@ -352,7 +352,11 @@ article div {
 }
 
 #portfoliohomepic {
-    scale: 115%;
+    scale: 103%;
+}
+
+#chatbotpic {
+    scale: 102%;
 }
 
 .portfolio-box:hover img {
