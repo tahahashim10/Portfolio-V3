@@ -60,7 +60,7 @@ ScrollReveal().reveal('.portfolio-container', {origin: 'bottom'});
 // typed js
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Software Engineer', 'Computer Science Student', 'Front-End Developer'],
+    strings: ['Software Engineer', 'Software Automation Engineer', 'Computer Science Student', ],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
